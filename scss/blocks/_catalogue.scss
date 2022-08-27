@@ -1,0 +1,34 @@
+.catalogue {
+  .catalogue_complexes {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: repeat(6, 74px);
+    gap: 45px 30px;
+    .catalogue_complexes_item {
+      width: 370px;
+      height: 74px;
+
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      .catalogue_complexes_item_imgframe {
+        width: 64px;
+        height: 64px;
+        border-radius: 5px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background-color: #f3f3f3;
+        .catalogue_complexes_item_img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .catalogue_complexes_item_name {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+      }
+    }
+  }
+}
